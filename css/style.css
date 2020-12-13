@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+    .container{
+        background-color: white;
+    }
+        header{
+            display: flex;
+            flex-direction: column;
+        }
+            .myBlackScreen{
+                background-color: black;
+                color: white;
+                padding: 31px;
+                padding-top: 40px;
+                padding-bottom: 62px;
+            }
+                .title{
+                    color: white;
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-bottom: 39px;
+                }
+                .myParagrafo{
+                   font-size: 18px;
+                    margin-bottom: 39px;
+                }
+                #myVideo{
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+               .myButton{
+                   background-color: #FD441D;
+                   max-width: 500px;
+                   border-radius: 20px;
+                   padding: 0px;
+                   margin-top: 40px;
+                   font-size: 24px;
+                   padding: 19px;
+                   text-align: center;
+                   box-shadow: 10px 5px 5px black;
+                   margin: auto;
+                   src: ;
+                   
+               }
+               .myButtonLinkText{
+                color: black;
+               }
+                
+            .myWhiteScreen{
+                    color: black;
+                   display: flex;
+                   flex-direction: column;
+                   padding: 31px;
+                   padding-top: 40px;
+                   padding-bottom: 62px;
+                   border-bottom: solid black 10px;
+            }
+                #mySecondTitle{
+                font-size: 40px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                }
+                .myBoxContainer{
+                    display: flex;
+                    flex-direction: column;
+
+                }
+                .myBox{
+                    display: flex;
+                    margin-bottom: 40px;
+                }
+                .myBoxIten{
+                    margin-right: 35px;
+                }
+                .myBox h2{
+                    font-size: 24px;
+            
+                }
+            ul{
+                padding-left: 0px;
+                padding-bottom: 40px;
+            }
+            li {
+                list-style: none;
+
+            }
+            .myItens{
+                font-size: 24px;
+                font-weight: normal;
+                margin-bottom: 5px;
+            }
+            footer{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .myIntaButton{
+                background-color: royalblue;
+            }
+            
+@media (min-width: 1000px){
+    .myBoxContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .myBox{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .myBoxIten{
+        margin-bottom: 35px;
+    }
+}
